@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             customerList.add(x);
         }
 
-        Log.d("gerald", customerList.toString());
+        //Log.d("customer", customerList.toString());
 
         ListAdapter adapter = new ListAdapter(this, R.layout.listofcustomers, customerList);
         listView = (ListView)findViewById(R.id.listview);
